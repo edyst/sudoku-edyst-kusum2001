@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 25px;
+    width: 100%;
+  
+    
+  }
+  
+  .three-buttons {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    width: 60%;
+   justify-content: center;
+    
+  }
+  .three-buttons>button {
+    padding: 10px;
+  }
+  .game-board {
+    width: 75%;
+    margin: auto;
+   
+  }
+  table {
+    border: 1px solid #344861;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .cells {
+    height: 60px;
+    width: 60px;
+  }
+  
+  input[type="number"] {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #bec6d4;
+    outline: none;
+    text-align: center;
+    font-size: 100%;
+  }
+  
+  
+  .row-4 .cells input ,.row-7 .cells input{
+    border-top: 1px solid #344861;
+  }
+  
+  .validation {
+    width: 70%;
+    margin: auto;
+  }
+  .validation > button {
+    width: 100%;
+    height: 47px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .hoverstyle {
+    background-color: white;
+  }
+  .hoverstyle:hover {
+    background-color: lightblue;
+  }
+  #matched{
+    background-color: lightblue;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .cells-3,
+  .cells-6,
+  .cells-12,
+  .cells-15,
+  .cells-21,
+  .cells-24,
+  .cells-30,
+  .cells-33,
+  .cells-39,
+  .cells-42,
+  .cells-48,
+  .cells-51,
+  .cells-57,
+  .cells-60,
+  .cells-66,
+  .cells-69,
+  .cells-75,
+  .cells-78 {
+    border-right: 1px solid #344861;
+  }
